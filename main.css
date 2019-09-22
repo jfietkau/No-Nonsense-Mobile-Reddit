@@ -66,6 +66,13 @@ li.TopNav-promoButton {
 /*** Other features ***/
 
 /*
+  2019-09: Hide the cookie banner that is shown to EU users.
+*/
+.EUCookieNotice {
+  display: none;
+}
+
+/*
   2019-09: Hide the chat button in the top bar (it is useless without the
   app anyway)
 */
