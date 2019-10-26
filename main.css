@@ -1,6 +1,20 @@
 /*** App promo blocking ***/
 
 /*
+  2019-10: Reddit now disables scrolling while the "Use the app" popup is open,
+  resulting in the site just failing to scroll if the popup is hidden. In lieu
+  of removing the class from the body element (which would require adding JS),
+  here's how we make sure that users can keep scrolling.
+*/
+
+body.scroll-disabled {
+  height: auto !important;
+  width: auto !important;
+  overflow: visible !important;
+  position: static !important;
+}
+
+/*
   2019-09: New app promo that is shown in-between items in the feed.
 */
 .XPromoInFeed {
