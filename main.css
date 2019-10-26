@@ -117,9 +117,10 @@ li > div.MobileButton {
 
 /*
   2019-09: Hide the "Share" link that appears in every feed item because
-  the popup is annoying
+  the popup is annoying.
+  2019-10: Update with current CSS class name.
 */
-span.Share {
+span.ShareBlock {
   display: none;
 }
 
