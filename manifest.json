@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "No-nonsense Mobile Reddit",
-  "version": "1.0.2",
+  "version": "1.0.3",
 
   "description": "Removes all the 'see in app' ads from Reddit's webpage and makes other minor simplifications.",
 
