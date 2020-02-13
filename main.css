@@ -133,8 +133,9 @@ li > .MobileButton {
   2019-09: Hide the "Share" link that appears in every feed item because
   the popup is annoying.
   2019-10: Updated with current CSS class name.
+  2020-02: Updated with current CSS class name again.
 */
-span.ShareBlock {
+.PostFooter__share {
   display: none;
 }
 
