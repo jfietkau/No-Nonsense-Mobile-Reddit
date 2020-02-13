@@ -31,8 +31,9 @@ body.scroll-disabled {
 
 /*
   2019-09: This is the orange "Use App" button in the top right of the page.
+  2020-02: Updated CSS class name. Also, the button is blue these days.
 */
-li.TopNav-promoButton {
+li.TopNav__promoButton {
   display: none;
 }
 
@@ -89,8 +90,10 @@ li.TopNav-promoButton {
 /*
   2019-09: Hide the chat button in the top bar (it is useless without the
   app anyway)
+  2020-02: Removed child element tag name (used to be "div", in current design
+  it's "a")
 */
-li > div.MobileButton {
+li > .MobileButton {
   display: none;
 }
 
@@ -118,7 +121,7 @@ li > div.MobileButton {
 /*
   2019-09: Hide the "Share" link that appears in every feed item because
   the popup is annoying.
-  2019-10: Update with current CSS class name.
+  2019-10: Updated with current CSS class name.
 */
 span.ShareBlock {
   display: none;
