@@ -81,6 +81,17 @@ li.TopNav__promoButton {
 /*** Other features ***/
 
 /*
+  2020-02: Always show full text post, do not require "read more"
+*/
+
+.PostContent__readMore {
+  display: none;
+}
+.PostContent__selftext {
+  max-height: none !important;
+}
+
+/*
   2019-09: Hide the cookie banner that is shown to EU users.
 */
 .EUCookieNotice {
