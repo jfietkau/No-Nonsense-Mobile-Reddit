@@ -99,16 +99,6 @@ li.TopNav__promoButton {
 }
 
 /*
-  2019-09: Hide the chat button in the top bar (it is useless without the
-  app anyway)
-  2020-02: Removed child element tag name (used to be "div", in current design
-  it's "a")
-*/
-li > .MobileButton {
-  display: none;
-}
-
-/*
   2019-09: Always show full comments instead of hiding them behind "See
   full discussion"
 */
