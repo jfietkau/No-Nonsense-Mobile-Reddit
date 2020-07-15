@@ -81,6 +81,25 @@ li.TopNav__promoButton {
 /*** Other features ***/
 
 /*
+  2020-07: Skip "sensitive content" modal that tries to push users to the app
+*/
+
+.XPromoNSFWBlockingModal, .XPromoNSFWBlocking__warning {
+  display: none;
+}
+.m-blurred {
+  filter: none;
+}
+
+/*
+  2020-07: Do not blur NSFW subreddit icons
+*/
+
+.CommunityHeader > div > div > div, .TopNav__left > div > a > div > div > div {
+  filter: none !important;
+}
+
+/*
   2020-02: Always show full text post, do not require "read more"
 */
 
